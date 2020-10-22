@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+button:active,
+button:focus {
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+    border: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/*grid*/
+
+.grid {
+    padding-top: 2.5px;
+    margin-top: 10px;
+    width: 340px;
+    height: auto;
+    background-color: rgb(47, 56, 56);
+    box-shadow: 2px 10px 10px black;
+    border-radius: 5px;
+}
+
+.grid>div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    /* background-color: black; */
+}
+
+
+/*menu*/
+
+.menu {
+    width: 300px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.menu>div {
+    font-size: 30px;
+    font-weight: 900px;
+    color: honeydew;
+    text-transform: uppercase;
+    text-shadow: 2px 10px 10px black;
+}
+
+.menu>#start-button {
+    background-color: rgb(18, 90, 48);
+    margin-top: 50px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 2px 10px 10px black;
+    font-size: 20px;
+    font-weight: 900px;
+    color: white;
+}
+
+.menu>#play-button {
+    background-color: rgb(18, 90, 48);
+    margin-top: 50px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 2px 10px 10px black;
+    font-size: 20px;
+    font-weight: 900px;
+    color: white;
+}
+
+
+/* box */
+
+.theBox {
+    border: 1px solid white;
+}
+
+.last {
+    background-color: rgb(255, 255, 255);
+}
